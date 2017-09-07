@@ -9,6 +9,7 @@ namespace Lab01
         {
             Console.Write("Hello");
             Console.Write("Hello");
+            Console.ReadKey();
         }
     }
 }
