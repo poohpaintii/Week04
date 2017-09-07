@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Lab01
 {
@@ -10,6 +7,15 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
+            int N;
+            Random random = new Random();
+            int randomNumber = random.Next(0, 9);
+            Console.WriteLine(randomNumber);
+            Console.WriteLine("Enter Integer");
+            N = int.Parse(Console.ReadLine());
+            bool a = randomNumber > N ;
+            Console.WriteLine("{0}", a);
+            Console.ReadKey();
         }
     }
 }
